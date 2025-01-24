@@ -1,0 +1,12 @@
+using System;
+class Program3
+{
+    static void Main()
+    {
+        Console.Write("Enter first number: ");
+        int num1 = int.Parse(Console.ReadLine());
+        Console.Write("Enter second number: ");
+        int num2 = int.Parse(Console.ReadLine());
+        Console.WriteLine($"Difference: {num1 - num2}");
+    }
+}
