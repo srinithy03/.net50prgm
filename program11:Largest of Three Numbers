@@ -1,0 +1,15 @@
+using System;
+class Program11
+{
+    static void Main()
+    {
+        Console.Write("Enter first number: ");
+        int num1 = int.Parse(Console.ReadLine());
+        Console.Write("Enter second number: ");
+        int num2 = int.Parse(Console.ReadLine());
+        Console.Write("Enter third number: ");
+        int num3 = int.Parse(Console.ReadLine());
+        int largest = (num1 > num2) ? ((num1 > num3) ? num1 : num3) : ((num2 > num3) ? num2 : num3);
+        Console.WriteLine($"The largest number is: {largest}");
+    }
+}
